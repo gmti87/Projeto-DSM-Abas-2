@@ -1,0 +1,78 @@
+<!-- <link rel="stylesheet" href="../styles/global-pages.css"> -->
+
+<div class="header-page tema lp">
+    <div>
+        To-Do Program
+    </div>
+    <div>
+        <a href="#create-task">Tarefas</a>
+        <a href="#history-task">Histórico</a>
+    </div>
+</div>
+
+<div class="main-page">
+
+    <section id="create-task">
+        <h2>
+            Crie sua Tarefa
+        </h2>
+        
+        <textarea name="task" id="taskInput"></textarea>
+
+        <div class="schedule">
+            <label for="text">Deseja Agendar?</label>
+            <input type="checkbox" id="checkInput">
+        </div>
+
+        <div class="date-time">
+            <div>
+                <label for="text">Data:</label>
+                <input type="date" id="dateInput">
+            </div>
+
+            <span></span>
+
+            <div>
+                <label for="text">Hora:</label>
+                <input type="time" id="timeInput">
+            </div>
+        </div>
+
+        <div class="btns">
+            <button onclick="salvarTask()" class="save">Salvar</button>
+            <span></span>
+            <button onclick="cancelaTask()" class="cancel">Cancelar</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="history-task">
+        <h2>Histórico</h2>
+
+        <div class="history-task-search">
+            <div class="h-t-s-task">
+                <label for="text">Pesquise a tarefa:</label>
+                <input type="text">
+            </div>
+
+            <div class="h-t-s-data">
+                <label for="text">Data:</label>
+                <input type="date">
+            </div>
+
+        </div>
+
+        <p id="all-tasks"></p>
+
+    </section>
+
+    <div class="back-to-header">
+        <a href="#">Voltar ao Inicio</a>
+    </div>
+
+</div>
+
+<div class="footer-page tema">
+    All Rights Reserved &copy;
+</div>

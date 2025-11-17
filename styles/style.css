@@ -1,0 +1,44 @@
+.container {
+    border: 3px solid grey;
+    /* height: 120vh; */
+    
+    /* incluído */
+    min-height: auto;
+    height: auto;
+    
+    /* já estava */
+    width: 99vw;
+    margin: 5px;
+    padding: 5px;
+}
+
+#mmmhome {
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+    height: 97vh;
+    width: 98vw;
+
+}
+
+#abertura {
+    background-color: yellow;
+    border: 3px solid blue;
+    height: 110vh;
+    width: 98vw;
+    margin: 5px;
+
+}
+
+/* incluído */
+.tab-content {
+    height: auto;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+    height: auto;
+}

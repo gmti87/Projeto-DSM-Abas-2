@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "data-tarefa": "13/11/2025",
+    "tarefa": "Revisar documentação do projeto",
+    "situacao": "Em andamento",
+    "tarefa-agendada": "14/11/2025",
+    "hora-tarefa": "10:00"
+  },
+  {
+    "id": 2,
+    "data-tarefa": "12/11/2025",
+    "tarefa": "Atualizar planilha de custos",
+    "situacao": "Concluída",
+    "tarefa-agendada": "",
+    "hora-tarefa": ""
+  },
+  {
+    "id": 3,
+    "data-tarefa": "10/11/2025",
+    "tarefa": "Criar apresentação do tema",
+    "situacao": "Pendente",
+    "tarefa-agendada": "15/11/2025",
+    "hora-tarefa": "14:30"
+  },
+  {
+    "id": 4,
+    "data-tarefa": "09/11/2025",
+    "tarefa": "Reunião com o grupo",
+    "situacao": "Em andamento",
+    "tarefa-agendada": "",
+    "hora-tarefa": ""
+  },
+  {
+    "id": 5,
+    "data-tarefa": "08/11/2025",
+    "tarefa": "Enviar relatório semanal",
+    "situacao": "Concluída",
+    "tarefa-agendada": "08/11/2025",
+    "hora-tarefa": "09:00"
+  }
+]

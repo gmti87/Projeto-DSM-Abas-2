@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulário Abas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/Site.css">
+  <link rel="stylesheet" href="styles/global-pages.css">
+
+  <!-- Chart.js (apenas uma vez) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+</head>
+
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#abertura">Abertura</a></li>
+      <li><a data-toggle="tab" href="#dados-pessoais">Dados Pessoais</a></li>
+      <li><a data-toggle="tab" href="#dados-estudantis">Dados Estudantis</a></li>
+      <li><a data-toggle="tab" href="#dados-postais">Dados Postais</a></li>
+      <li><a data-toggle="tab" href="#tabela-dinamica">Tabela Dinâmica</a></li>
+      <li><a data-toggle="tab" href="#carrossel">Carrossel</a></li>
+      <li><a data-toggle="tab" href="#graficos">Gráficos</a></li>
+      <li><a data-toggle="tab" href="#projeto">LandPage do Projeto</a></li>
+      <li><a data-toggle="tab" href="#localizacao">Localização</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="abertura" class="tab-pane fade in active"></div>
+      <div id="dados-pessoais" class="tab-pane fade"></div>
+      <div id="dados-estudantis" class="tab-pane fade"></div>
+      <div id="dados-postais" class="tab-pane fade"></div>
+      <div id="tabela-dinamica" class="tab-pane fade"></div>
+      <div id="carrossel" class="tab-pane fade"></div>
+      <div id="graficos" class="tab-pane fade"></div>
+      <div id="projeto" class="tab-pane fade"></div>
+      <div id="localizacao" class="tab-pane fade"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <!-- <script src="js/abas.js"></script>
+  <script src="js/graficos.js"></script> -->
+
+  <script src="js/carrossel.js"></script>
+  <script src="js/graficos.js"></script>
+  <!-- <script src="js/tabela.js"></script> -->
+  <script src="js/tabela-dinamica.js"></script>
+  <script src="js/projeto.js"></script>
+  <script src="js/abas.js"></script>
+
+</body>
+</html>

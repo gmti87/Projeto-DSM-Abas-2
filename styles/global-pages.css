@@ -1,0 +1,443 @@
+.header-page {
+    background-color: red;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main-page {
+    min-height: 10vh;
+}
+
+.footer-page {
+    background-color: red;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.tema {
+    background-color: blue;
+    color: #fff;
+}
+
+/* Dados Pessoais */
+
+.first-row, .second-row, .third-row,
+.fourth-row, .fifth-row, .sixth-row,
+.seventh-row, .eight-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.row1, .row2, .row3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dados Estudantis */
+
+.form-cpf {
+    padding: 5px;
+}
+
+.row-cpf-01, .row-cpf-02 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.row-cpf-1, .row-cpf-2, .row-cpf-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row-cpf-02-docs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-cpf-02-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row-cpf-02-btns input {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Dados postais */
+
+.form-postal-fp {
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.fp-first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fp-second-row, .fp-third-row, .fp-fourth-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fp-cep, .fp-rua, .fp-numero, .fp-city, .fp-state, .fp-comp, .fp-ref {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+}
+
+.fp-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btnSave, .btnCancel {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Carrossel */
+
+.header-carrossel {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-carrossel {
+    height: 100vh;
+}
+
+.main-carrossel h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-carrossel a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.carrossel-container {
+    width: 100%;
+    max-width: 800px;
+    /* margin-left: 1.5%;
+    margin-right: 1.5%; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    padding: 15px;
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarefas {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -5px;
+}
+
+.tarefa {
+    flex: 0 0 30%;
+    background: #eee;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* font-weight: normal; */
+    user-select: none;
+    display: none;
+}
+
+.tarefa span {
+    font-weight: bold;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.tarefa.ativa {
+    display: block;
+}
+
+.indicadores {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bolinha {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bolinha.ativa {
+    background-color: black;
+}
+
+/* carrossel um card */
+
+
+.cc {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tsc {
+    display: flex;
+    justify-content: center;
+}
+
+.tc {
+    width: 100%;
+    min-width: 370px;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* font-weight: bold; */
+    user-select: none;
+    display: none;
+}
+
+.tc.ativa {
+    display: block;
+}
+
+.imgu {
+    width: 120px;
+    margin-left: 32%;
+}
+
+.inds {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bl {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bl.ativa {
+    background-color: black;
+}
+
+/* Página Gráficos */
+
+.two-grafs1 {
+    width: 49%;
+    display: inline-flex;
+}
+
+/* Tabela Dinâmica */
+
+.main-page p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+
+.search-task {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-task-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(0, 0, 255);
+    opacity: 0.7;
+    color: #fff;
+}
+
+/* Landpage do Projeto */
+
+.lp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lp a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#create-task h2 {
+    text-align: center;
+}
+
+#taskInput {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 97%;
+    height: 180px;
+
+}
+
+.schedule {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.date-time div {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.save {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cancel {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+#history-task h2 {
+    text-align: center;
+}
+
+.history-task-search {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.h-t-s-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-t-s-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-to-header {
+    position: fixed;
+    bottom: 16vh;
+    right: 2.5vh;
+    background-color: lightgray;
+    padding: 8px;
+}
+
+.back-to-header a {
+    color: white;
+    text-decoration: none;
+}
+
